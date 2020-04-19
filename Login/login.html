@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merk | Login</title>
+    <link rel="stylesheet" href="estiloLogin.css">
+</head>
+
+<body>
+
+    <section>
+        <div>Inicie sua sessão na</div>
+        <div id="merk">MerkExpress</div>
+        <input type="text" maxlength="10" placeholder="Usuário">
+        <span aria-label="Seu usuário é seu nome + o primeiro sobrenome">?</span>
+        <hr></hr>
+        <input type="text" id="senha" maxlength="10" placeholder="Senha">
+        <hr id="senha"></hr>
+        <input type="button" id="entrar" value="Entrar" onclick='window.location.href = "/ProjetoPI_3s/Menu/menu.html"'>
+        <div><a href="esqueciSenha.html" id="linkSenha">Esqueci minha senha</a></div>
+
+    </section>
+    <section id="criarConta">
+        <p>Não possui cadastro?</p>
+        <input type="button" id="criar" value="Criar conta" onclick='window.location.href = "/ProjetoPI_3s/CadastroUsuario/cadastroUsuario.html"'>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

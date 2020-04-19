@@ -1,0 +1,74 @@
+    body {
+        background-image: url(Background-tarde-2-cadUser.png);
+        background-attachment: fixed;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-color: black;
+    }
+    
+    p {
+        font: bold 17pt Avenir LT Std;
+        color: rgba(26, 25, 25, 0.89);
+        text-align: right;
+        margin-left: 30px;
+        margin-top: 50px;
+    }
+    
+    p#adm {
+        font: bold 17pt Avenir LT Std;
+        color: rgba(26, 25, 25, 0.89);
+        text-align: right;
+        margin-top: 50px;
+        margin-left: -40px;
+        margin-right: -1px;
+    }
+    
+    section {
+        background-color: white;
+        padding: 10px;
+        height: 650px;
+        width: 670px;
+        margin: auto;
+        margin-top: 200px;
+        border-radius: 10px;
+    }
+    
+    h1 {
+        font: bold 25pt Avenir LT Std;
+        color: rgba(15, 15, 15, 0.897);
+        text-align: center;
+        margin-top: 5px;
+        letter-spacing: -1px;
+    }
+    
+    hr {
+        width: 450px;
+        margin-top: -20px;
+        margin-left: 175px;
+    }
+    
+    hr#adm {
+        width: 450px;
+        margin-top: -20px;
+        margin-left: 175px;
+    }
+    
+    input {
+        background-color: transparent;
+        border: none;
+        outline: 0;
+        font-size: 1.3rem;
+        width: 500px;
+        margin-left: 10px;
+    }
+    
+    input#cadastrar {
+        background-color: rgba(194, 46, 20, 0.884);
+        font: bold 20pt Corbel;
+        color: white;
+        margin-left: 220px;
+        margin-top: 30px;
+        border-radius: 10px;
+        width: 250px;
+        height: 40px;
+    }

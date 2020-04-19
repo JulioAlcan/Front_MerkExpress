@@ -1,0 +1,25 @@
+body {
+    background-image: url(Background-menu-completo.png);
+    background-attachment: fixed;
+    background-size: 82%;
+    background-repeat: no-repeat;
+    background-color: #e1e1e1;
+    background-position: center;
+}
+
+input#sair {
+    margin-left: 1396px;
+    margin-top: 721px;
+    width: 65px;
+    height: 65px;
+    border-radius: 50px;
+    opacity: 0.2;
+    transition: 0, 2s;
+    background-color: rgb(255, 172, 77);
+    border: none;
+    outline: 0;
+}
+
+input#sair:hover {
+    background-color: rgb(231, 64, 13);
+}
