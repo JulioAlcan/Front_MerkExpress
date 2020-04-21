@@ -1,25 +1,203 @@
 body {
-    background-image: url(Background-menu-completo.png);
+    background-image: url(Background-menu-2.png);
     background-attachment: fixed;
-    background-size: 82%;
+    background-size: 85%;
     background-repeat: no-repeat;
-    background-color: #e1e1e1;
-    background-position: center;
+    background-color: #3a3a3a;
+    background-position: left;
+}
+
+input#cadprod {
+    margin-left: 1225px;
+    margin-top: 489px;
+    width: 285px;
+    height: 285px;
+    border-radius: 150px;
+    opacity: 0.2;
+    transition: 0, 2s;
+    background-color: #d2d2d2;
+    border: none;
+    outline: 0;
+    position: fixed;
+    cursor: pointer;
+}
+
+input#cadprod:hover {
+    background-color: #000000;
+}
+
+#cadfunc {
+    margin-left: 796px;
+    margin-top: 492px;
+    width: 285px;
+    height: 285px;
+    border-radius: 150px;
+    transition: 0, 2s;
+    background-color: #d2d2d2;
+    border: none;
+    opacity: 0.2;
+    outline: 0;
+    position: fixed;
+    cursor: pointer;
+}
+
+input#cadfunc:hover {
+    background-color: #000000;
+}
+
+#cadcli {
+    margin-left: 375px;
+    margin-top: 490px;
+    width: 285px;
+    height: 285px;
+    border-radius: 150px;
+    transition: 0, 2s;
+    background-color: #d2d2d2;
+    border: none;
+    opacity: 0.2;
+    outline: 0;
+    position: fixed;
+    cursor: pointer;
+}
+
+input#cadcli:hover {
+    background-color: #000000;
+}
+
+#vendas {
+    margin-left: 373px;
+    margin-top: 102px;
+    width: 285px;
+    height: 285px;
+    border-radius: 150px;
+    transition: 0, 2s;
+    background-color: #d2d2d2;
+    border: none;
+    opacity: 0.2;
+    outline: 0;
+    position: fixed;
+    cursor: pointer;
+}
+
+input#vendas:hover {
+    background-color: #000000;
+}
+
+#ra {
+    margin-left: 1225px;
+    margin-top: 102px;
+    width: 285px;
+    height: 285px;
+    border-radius: 150px;
+    transition: 0, 2s;
+    background-color: #d2d2d2;
+    border: none;
+    opacity: 0.2;
+    outline: 0;
+    position: fixed;
+    cursor: pointer;
+}
+
+input#ra:hover {
+    background-color: #000000;
+}
+
+#rs {
+    margin-left: 796px;
+    margin-top: 102px;
+    width: 285px;
+    height: 285px;
+    border-radius: 150px;
+    transition: 0, 2s;
+    background-color: #d2d2d2;
+    border: none;
+    opacity: 0.2;
+    outline: 0;
+    position: fixed;
+    cursor: pointer;
+}
+
+input#rs:hover {
+    background-color: #000000;
+}
+
+input#check {
+    width: 50px;
+    height: 50px;
+    display: none;
+    margin-top: 20px;
+    margin-left: 165px;
 }
 
 input#sair {
-    margin-left: 1396px;
-    margin-top: 721px;
-    width: 65px;
-    height: 65px;
-    border-radius: 50px;
-    opacity: 0.2;
-    transition: 0, 2s;
-    background-color: rgb(255, 172, 77);
-    border: none;
-    outline: 0;
+    width: 50px;
+    height: 50px;
+    display: none;
+    margin-top: 785px;
+    margin-left: 165px;
 }
 
-input#sair:hover {
-    background-color: rgb(231, 64, 13);
+#icone {
+    cursor: pointer;
+    padding: 12px;
+    z-index: 1;
+    position: absolute;
+    margin-top: -10px;
+    margin-left: -2px;
+}
+
+#sair {
+    cursor: pointer;
+    padding: 12px;
+    z-index: 1;
+    position: absolute;
+    margin-top: 730px;
+    margin-left: 3px;
+}
+
+.barra {
+    background-color: #1f4a54;
+    height: 100%;
+    width: 300px;
+    position: absolute;
+    transition: all .2s linear;
+    bottom: 1px;
+    left: -300px;
+}
+
+nav {
+    width: 100%;
+    position: absolute;
+    top: 60px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.link {
+    background-color: #1a4049;
+    padding: 15px;
+    font: bold 14pt Code;
+    letter-spacing: 1px;
+    font-style: inherit;
+    transition: all .2s linear;
+    color: white;
+    margin-top: 8px;
+    border-bottom: 2px solid #1f4a54;
+}
+
+.link:hover {
+    background-color: #122e35;
+}
+
+#check:checked~.barra {
+    transform: translateX(300px);
+}
+
+p {
+    font: bold 14pt Code;
+    margin-left: 15px;
+    margin-top: 50px;
+    color: white;
 }

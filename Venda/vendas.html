@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merk | Venda</title>
+    <link rel="stylesheet" href="estiloVenda.css">
+</head>
+
+<body>
+    <form name="form_vendas" class="form_vendas" action="" method="POST">
+
+        <input type="checkbox" id="check">
+        <label id="icone" for="check"><img src="icone-menu.png" title="Menu"></label>
+
+        <section id="fundo">
+            <p id="nv">Nova venda</p>
+            <div> <input type="text" id="buscaProd" placeholder=" Digite aqui o produto desejado"></div>
+            <div><input type="button" id="btnBuscaProd" onclick="window.alert('Ao apertar vai aparecer a lista de itens ou algo do genero')" value="Ok">
+            </div>
+
+            <div class="botoes">
+                <input type="button" id="novo" value="NOVO">
+                <input type="button" id="editar" value="EDITAR">
+                <input type="button" id="excluir" value="EXCLUIR">
+            </div>
+
+            <hr>
+            </hr>
+            <div>
+                <section id="fundoLista">
+
+                    <p id="tituloNome">Nome</p>
+                    <p id="tituloID">ID</p>
+                    <p id="tituloQtd">Qtd.</p>
+                    <p id="tituloPreco">Preço</p>
+
+                    <div class="lista">
+                        <input type="text" id="nome" placeholder="Nome do produto">
+                        <input type="text" id="id" placeholder="ID do produto">
+                        <input type="number" id="qtd" placeholder="Ex: 5">
+                        <input type="number" id="valor" placeholder="Preço">
+
+                        <input type="text" id="nome2">
+                        <input type="text" id="id">
+                        <input type="number" id="qtd">
+                        <input type="number" id="valor">
+
+                        <input type="text" id="nome2">
+                        <input type="text" id="id">
+                        <input type="number" id="qtd">
+                        <input type="number" id="valor">
+
+                        <input type="text" id="nome2">
+                        <input type="text" id="id">
+                        <input type="number" id="qtd">
+                        <input type="number" id="valor">
+
+                        <input type="text" id="nome2">
+                        <input type="text" id="id">
+                        <input type="number" id="qtd">
+                        <input type="number" id="valor">
+
+                        <input type="text" id="nome2">
+                        <input type="text" id="id">
+                        <input type="number" id="qtd">
+                        <input type="number" id="valor">
+
+                        <input type="text" id="nome2">
+                        <input type="text" id="id">
+                        <input type="number" id="qtd">
+                        <input type="number" id="valor">
+
+                        <p id="tituloTotal">Total</p>
+                        <p id="rs">R$</p>
+                        <input type="number" id="Total">
+                    </div>
+
+                </section>
+            </div>
+
+            <div>
+                <section id="fundoLista2">
+                    <div class="rdoBtn">
+                        <input type="radio" id="cred" name="rdo"> <label id="lbl" for="cred">Cartão de
+                            crédito</label></br>
+                        <input type="radio" id="cred" name="rdo"> <label id="lbl" for="deb">Cartão de débito</label>
+                    </div>
+
+                    <div>
+                        <p id="tituloCod">Código sócio</p>
+                        <input type="text" id="cod" placeholder="Ex: 12345">
+
+                        <p id="tituloCpf">CPF</p>
+                        <input type="text" id="cpf" placeholder="CPF do cliente">
+
+
+                        <p id="tituloFilial">Filial</p>
+
+                        <select id="filial">
+                            <option value="valor1" selected>Loja 1</option>
+                            <option value="valor2">Loja 2</option>
+                            <option value="valor3">Loja 3</option>
+                        </select>
+
+                    </div>
+
+                    <input type="button" id="finalizar" value="Finalizar">
+                    <input type="button" id="cancelar" value="Cancelar">
+                </section>
+            </div>
+
+        </section>
+        <div class="barra">
+            <nav>
+                <a href="/ProjetoPI_3s/Login/login.html">
+                    <div class="link">Controle de estoque</div>
+                    <input type="button" id="sair" onclick='window.location.href = "/ProjetoPI_3s/Login/login.html"'>
+                    <label id="sair" for="sair"><img src="icone-sair.png" title="Encerrar sessão"></label>
+                </a>
+
+                <a href="/ProjetoPI_3s/CadastroUsuario/cadastroUsuario.html">
+                    <div class="link">Gerenciar clientes</div>
+                </a>
+
+                <a href="/ProjetoPI_3s/CadastroUsuario/cadastroUsuario.html">
+                    <div class="link">Gerenciar Funcionários</div>
+                </a>
+                <p>Seja bem-vindo, Julio!</p>
+                <input type="button" id="btnHome" onclick='window.location.href = "/ProjetoPI_3s/Menu/menu.html"'>
+                <label id="iconeHome" for="btnHome"><img src="icone-home.png" title="Home"></label>
+                <!--Pegar o nome da pessoa-->
+            </nav>
+    </form>
+</body>
+
+</html>

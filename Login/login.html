@@ -11,22 +11,26 @@
 <body>
 
     <section>
-        <div>Inicie sua sessão na</div>
-        <div id="merk">MerkExpress</div>
-        <input type="text" maxlength="10" placeholder="Usuário">
-        <span aria-label="Seu usuário é seu nome + o primeiro sobrenome">?</span>
-        <hr></hr>
-        <input type="text" id="senha" maxlength="10" placeholder="Senha">
-        <hr id="senha"></hr>
-        <input type="button" id="entrar" value="Entrar" onclick='window.location.href = "/ProjetoPI_3s/Menu/menu.html"'>
-        <div><a href="esqueciSenha.html" id="linkSenha">Esqueci minha senha</a></div>
-
+        <form name="form_login" class="form_login" action="" method="POST">
+            <div>Inicie sua sessão na</div>
+            <div id="merk">MerkExpress</div>
+            <input type="text" maxlength="10" placeholder="Usuário">
+            <span aria-label="Seu usuário é seu nome + o primeiro sobrenome">?</span>
+            <hr>
+            </hr>
+            <input type="text" id="senha" maxlength="10" placeholder="Senha">
+            <hr id="senha">
+            </hr>
+            <input type="button" id="entrar" value="Entrar" onclick='window.location.href = "/ProjetoPI_3s/Menu/menu.html"'>
+            <div><a href="esqueciSenha.html" id="linkSenha">Esqueci minha senha</a></div>
+        </form>
     </section>
-    <section id="criarConta">
-        <p>Não possui cadastro?</p>
-        <input type="button" id="criar" value="Criar conta" onclick='window.location.href = "/ProjetoPI_3s/CadastroUsuario/cadastroUsuario.html"'>
-    </section>
-
+    <form name="form_criarLogin" class="form_criarLogin" action="" method="POST">
+        <section id="criarConta">
+            <p>Não possui cadastro?</p>
+            <input type="button" id="criar" value="Criar conta" onclick='window.location.href = "/ProjetoPI_3s/CadastroUsuario/cadastroUsuario.html"'>
+        </section>
+    </form>
 
     <script src="script.js"></script>
 </body>

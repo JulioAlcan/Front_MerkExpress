@@ -9,7 +9,34 @@
 </head>
 
 <body>
-    <input type="button" id="sair" onclick='window.location.href = "/ProjetoPI_3s/Login/login.html"'>
+    <input type="button" id="cadprod" onclick='window.location.href = "/ProjetoPI_3s/Login/login.html"'>
+    <input type="button" id="cadfunc" onclick='window.location.href = "/ProjetoPI_3s/Login/login.html"'>
+    <input type="button" id="cadcli" onclick='window.location.href = "/ProjetoPI_3s/Login/login.html"'>
+    <input type="button" id="vendas" onclick='window.location.href = "/ProjetoPI_3s/Venda/vendas.html"'>
+    <input type="button" id="ra" onclick='window.location.href = "/ProjetoPI_3s/Login/login.html"'>
+    <input type="button" id="rs" onclick='window.location.href = "/ProjetoPI_3s/Login/login.html"'>
+
+    <input type="checkbox" id="check">
+    <label id="icone" for="check"><img src="icone-menu.png" title="Menu"></label>
+
+    <div class="barra">
+        <nav>
+            <a href="/ProjetoPI_3s/Login/login.html">
+                <div class="link">Controle de estoque</div>
+                <input type="button" id="sair" onclick='window.location.href = "/ProjetoPI_3s/Login/login.html"'>
+                <label id="sair" for="sair"><img src="icone-sair.png" title="Encerrar sessão"></label>
+            </a>
+
+            <a href="/ProjetoPI_3s/CadastroUsuario/cadastroUsuario.html">
+                <div class="link">Gerenciar clientes</div>
+            </a>
+
+            <a href="/ProjetoPI_3s/CadastroUsuario/cadastroUsuario.html">
+                <div class="link">Gerenciar Funcionários</div>
+            </a>
+            <p>Seja bem-vindo, Julio!</p>
+            <!--Pegar o nome da pessoa-->
+        </nav>
 </body>
 <link rel="stylesheet" href="script.js">
 

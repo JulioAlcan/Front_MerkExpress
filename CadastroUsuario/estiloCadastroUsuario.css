@@ -1,9 +1,9 @@
     body {
-        background-image: url(Background-tarde-2-cadUser.png);
+        background-image: url(Background-cadUser.png);
         background-attachment: fixed;
         background-size: 100%;
         background-repeat: no-repeat;
-        background-color: black;
+        background-color: #3a3a3a;
     }
     
     p {
@@ -29,7 +29,7 @@
         height: 650px;
         width: 670px;
         margin: auto;
-        margin-top: 200px;
+        margin-top: 150px;
         border-radius: 10px;
     }
     
@@ -63,7 +63,7 @@
     }
     
     input#cadastrar {
-        background-color: rgba(194, 46, 20, 0.884);
+        background-color: #1c5a68;
         font: bold 20pt Corbel;
         color: white;
         margin-left: 220px;
