@@ -9,32 +9,33 @@
 </head>
 
 <body>
+    <form name="form_cadUsuario" class="form_cadUsuario" action="" method="POST">
+        <section>
 
-    <section>
+            <h1>Crie a sua conta MerkExpress</h1>
+            <p>Nome: <input type="text"></p>
+            <hr>
+            </hr>
+            <p>Cpf: <input type="text" placeholder="Seu CPF sem traço" maxlength="14"></p>
+            <hr>
+            </hr>
+            <p>Cargo: <input type="text"></p>
+            <hr>
+            </hr>
 
-        <h1>Crie a sua conta MerkExpress</h1>
-        <p>Nome: <input type="text"></p>
-        <hr>
-        </hr>
-        <p>Cpf: <input type="text" placeholder="Seu CPF sem traço" maxlength="14"></p>
-        <hr>
-        </hr>
-        <p>Cargo: <input type="text"></p>
-        <hr>
-        </hr>
+            <p>Usuário: <input type="text" placeholder="Qual será seu usuário no sistema?"></p>
+            <hr>
+            </hr>
+            <p>Senha: <input type="password"></p>
+            <hr>
+            </hr>
+            <p id="adm">Senha admin: <input type="password"></p>
+            <hr id="adm">
+            </hr>
+            <input type="button" id="cadastrar" value="Criar Conta" onclick='window.location.href = "/ProjetoPI_3s/Login/login.html"'>
 
-        <p>Usuário: <input type="text" placeholder="Qual será seu usuário no sistema?"></p>
-        <hr>
-        </hr>
-        <p>Senha: <input type="password"></p>
-        <hr>
-        </hr>
-        <p id="adm">Senha admin: <input type="password"></p>
-        <hr id="adm">
-        </hr>
-        <input type="button" id="cadastrar" value="Criar Conta" onclick='window.location.href = "/ProjetoPI_3s/Login/login.html"'>
-
-    </section>
+        </section>
+    </form>
 </body>
 
 </html>

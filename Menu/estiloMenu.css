@@ -1,125 +1,232 @@
 body {
-    background-image: url(Background-menu-2.png);
-    background-attachment: fixed;
-    background-size: 85%;
-    background-repeat: no-repeat;
     background-color: #3a3a3a;
     background-position: left;
 }
 
-input#cadprod {
-    margin-left: 1225px;
-    margin-top: 489px;
+section#vendas {
+    background-color: rgb(236, 236, 236);
     width: 285px;
     height: 285px;
-    border-radius: 150px;
-    opacity: 0.2;
-    transition: 0, 2s;
-    background-color: #d2d2d2;
-    border: none;
-    outline: 0;
-    position: fixed;
-    cursor: pointer;
+    border-radius: 200px;
+    margin-left: 373px;
+    margin-top: 85px;
+    position: absolute;
 }
 
-input#cadprod:hover {
-    background-color: #000000;
+p#txtVendas {
+    margin-top: 390px;
+    margin-left: 412px;
+    font: bold 20pt Code;
+    position: absolute;
 }
 
-#cadfunc {
-    margin-left: 796px;
-    margin-top: 492px;
-    width: 285px;
-    height: 285px;
-    border-radius: 150px;
-    transition: 0, 2s;
-    background-color: #d2d2d2;
-    border: none;
-    opacity: 0.2;
-    outline: 0;
-    position: fixed;
-    cursor: pointer;
+p#txtRa {
+    margin-top: 390px;
+    margin-left: 1360px;
+    font: bold 20pt Code;
+    position: absolute;
 }
 
-input#cadfunc:hover {
-    background-color: #000000;
+p#txtRs {
+    margin-top: 390px;
+    margin-left: 872px;
+    font: bold 20pt Code;
+    position: absolute;
 }
 
-#cadcli {
-    margin-left: 375px;
-    margin-top: 490px;
-    width: 285px;
-    height: 285px;
-    border-radius: 150px;
-    transition: 0, 2s;
-    background-color: #d2d2d2;
-    border: none;
-    opacity: 0.2;
-    outline: 0;
-    position: fixed;
-    cursor: pointer;
+p#txtCadCli {
+    margin-top: 830px;
+    margin-left: 400px;
+    font: bold 20pt Code;
+    position: absolute;
 }
 
-input#cadcli:hover {
-    background-color: #000000;
+p#txtCadFunc {
+    margin-top: 830px;
+    margin-left: 850px;
+    font: bold 20pt Code;
+    position: absolute;
+}
+
+p#txtCadProd {
+    margin-top: 830px;
+    margin-left: 1370px;
+    font: bold 20pt Code;
+    position: absolute;
 }
 
 #vendas {
-    margin-left: 373px;
-    margin-top: 102px;
+    background-color: rgb(255, 255, 255);
+    background: url(icone-vendas.png);
+    background-repeat: no-repeat;
+    background-position: center;
     width: 285px;
     height: 285px;
-    border-radius: 150px;
-    transition: 0, 2s;
-    background-color: #d2d2d2;
+    border-radius: 200px;
+    margin-left: 373px;
+    margin-top: 85px;
     border: none;
-    opacity: 0.2;
-    outline: 0;
-    position: fixed;
     cursor: pointer;
+    position: absolute;
+    outline: none;
 }
 
 input#vendas:hover {
-    background-color: #000000;
+    background-color: #c7c7c7;
 }
 
-#ra {
-    margin-left: 1225px;
-    margin-top: 102px;
+section#rs {
+    background-color: rgb(236, 236, 236);
     width: 285px;
     height: 285px;
-    border-radius: 150px;
-    transition: 0, 2s;
-    background-color: #d2d2d2;
-    border: none;
-    opacity: 0.2;
-    outline: 0;
-    position: fixed;
-    cursor: pointer;
-}
-
-input#ra:hover {
-    background-color: #000000;
+    border-radius: 200px;
+    margin-left: 860px;
+    margin-top: 85px;
+    position: absolute;
 }
 
 #rs {
-    margin-left: 796px;
-    margin-top: 102px;
+    background-color: rgb(255, 255, 255);
+    background: url(icone-rs.png);
+    background-repeat: no-repeat;
+    background-position: center;
     width: 285px;
     height: 285px;
-    border-radius: 150px;
-    transition: 0, 2s;
-    background-color: #d2d2d2;
+    border-radius: 200px;
+    margin-left: 860px;
+    margin-top: 85px;
     border: none;
-    opacity: 0.2;
-    outline: 0;
-    position: fixed;
     cursor: pointer;
+    position: absolute;
+    outline: none;
 }
 
 input#rs:hover {
-    background-color: #000000;
+    background-color: #c7c7c7;
 }
+
+section#ra {
+    background-color: rgb(236, 236, 236);
+    width: 285px;
+    height: 285px;
+    border-radius: 200px;
+    margin-left: 1350px;
+    margin-top: 85px;
+    position: absolute;
+}
+
+#ra {
+    background-color: rgb(255, 255, 255);
+    background: url(icone-ra.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 285px;
+    height: 285px;
+    border-radius: 200px;
+    margin-left: 1350px;
+    margin-top: 85px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    outline: none;
+}
+
+input#ra:hover {
+    background-color: #c7c7c7;
+}
+
+section#cadcli {
+    background-color: rgb(236, 236, 236);
+    width: 285px;
+    height: 285px;
+    border-radius: 200px;
+    margin-left: 373px;
+    margin-top: 525px;
+    position: absolute;
+}
+
+#cadcli {
+    background-color: rgb(255, 255, 255);
+    background: url(icone-cadcli.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 285px;
+    height: 285px;
+    border-radius: 200px;
+    margin-left: 373px;
+    margin-top: 525px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    outline: none;
+}
+
+input#cadcli:hover {
+    background-color: #c7c7c7;
+}
+
+section#cadfunc {
+    background-color: rgb(236, 236, 236);
+    width: 285px;
+    height: 285px;
+    border-radius: 200px;
+    margin-left: 860px;
+    margin-top: 525px;
+    position: absolute;
+}
+
+#cadfunc {
+    background-color: rgb(255, 255, 255);
+    background: url(icone-cadfunc.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 285px;
+    height: 285px;
+    border-radius: 200px;
+    margin-left: 860px;
+    margin-top: 525px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    outline: none;
+}
+
+input#cadfunc:hover {
+    background-color: #c7c7c7;
+}
+
+section#cadprod {
+    background-color: rgb(236, 236, 236);
+    width: 285px;
+    height: 285px;
+    border-radius: 200px;
+    margin-left: 1350px;
+    margin-top: 525px;
+    position: absolute;
+}
+
+#cadprod {
+    background-color: rgb(255, 255, 255);
+    background: url(icone-cadprod.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 285px;
+    height: 285px;
+    border-radius: 200px;
+    margin-left: 1350px;
+    margin-top: 525px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    outline: none;
+}
+
+input#cadprod:hover {
+    background-color: #c7c7c7;
+}
+
+
+/*---------Inicio barra----------*/
 
 input#check {
     width: 50px;

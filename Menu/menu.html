@@ -9,12 +9,41 @@
 </head>
 
 <body>
-    <input type="button" id="cadprod" onclick='window.location.href = "/ProjetoPI_3s/Login/login.html"'>
-    <input type="button" id="cadfunc" onclick='window.location.href = "/ProjetoPI_3s/Login/login.html"'>
-    <input type="button" id="cadcli" onclick='window.location.href = "/ProjetoPI_3s/Login/login.html"'>
-    <input type="button" id="vendas" onclick='window.location.href = "/ProjetoPI_3s/Venda/vendas.html"'>
-    <input type="button" id="ra" onclick='window.location.href = "/ProjetoPI_3s/Login/login.html"'>
-    <input type="button" id="rs" onclick='window.location.href = "/ProjetoPI_3s/Login/login.html"'>
+    <div class="vendas">
+        <section id="vendas"></section>
+        <input type="submit" value="" id="vendas" onclick='window.location.href = "/ProjetoPI_3s/Venda/vendas.html"'>
+        <p id="txtVendas">Realizar venda</p>
+    </div>
+
+    <div class="rs">
+        <section id="rs"></section>
+        <input type="submit" value="" id="rs" onclick='window.location.href = "/ProjetoPI_3s/Login/login.html"'>
+        <p id="txtRs">Relatório sintético</p>
+    </div>
+
+    <div class="ra">
+        <section id="ra"></section>
+        <input type="submit" value="" id="ra" onclick='window.location.href = "/ProjetoPI_3s/Login/login.html"'>
+        <p id="txtRa">Relatório analítico</p>
+    </div>
+
+    <div class="cadcli">
+        <section id="cadcli"></section>
+        <input type="submit" value="" id="cadcli" onclick='window.location.href = "/ProjetoPI_3s/Login/login.html"'>
+        <p id="txtCadCli">Cadastrar cliente</p>
+    </div>
+
+    <div class="cadfunc">
+        <section id="cadfunc"></section>
+        <input type="submit" value="" id="cadfunc" onclick='window.location.href = "/ProjetoPI_3s/CadastroUsuario/cadastroUsuario.html"'>
+        <p id="txtCadFunc">Cadastrar funcionário</p>
+    </div>
+
+    <div class="cadprod">
+        <section id="cadprod"></section>
+        <input type="submit" value="" id="cadprod" onclick='window.location.href = "/ProjetoPI_3s/Login/login.html"'>
+        <p id="txtCadProd">Cadastrar produto</p>
+    </div>
 
     <input type="checkbox" id="check">
     <label id="icone" for="check"><img src="icone-menu.png" title="Menu"></label>
@@ -23,7 +52,7 @@
         <nav>
             <a href="/ProjetoPI_3s/Login/login.html">
                 <div class="link">Controle de estoque</div>
-                <input type="button" id="sair" onclick='window.location.href = "/ProjetoPI_3s/Login/login.html"'>
+                <input type="submit" value="" onclick='window.location.href = "/ProjetoPI_3s/Login/login.html"'>
                 <label id="sair" for="sair"><img src="icone-sair.png" title="Encerrar sessão"></label>
             </a>
 
