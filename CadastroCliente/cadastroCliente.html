@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merk | Cliente</title>
+    <link rel="stylesheet" href="estiloCadastroCliente.css">
+</head>
+
+<body>
+    <form name="form_vendas" class="form_vendas" action="" method="POST">
+
+        <input type="checkbox" id="check">
+        <label id="icone" for="check"><img src="icone-menu.png" title="Menu"></label>
+
+        <section id="fundo">
+            <p id="cc">Cadastrar cliente</p>
+            <div> <input type="text" id="buscaCliente" placeholder="    Buscar CPF do cliente"></div>
+            <div><input type="submit" id="btnBuscaCliente" onclick="window.alert('Ao apertar vai aparecer a lista de itens ou algo do genero')" value="Ok">
+            </div>
+
+            <div>
+                <section id="fundoLista">
+                    <p id="tituloNome">Nome</p>
+                    <input type="text" id="txtNome">
+
+                    <p id="tituloCpf">CPF</p>
+                    <input type="text" id="txtCpf">
+
+                    <p id="tituloData">Data de nasc.</p>
+                    <input type="date" id="data">
+
+                    <p id="tituloEC">Estado Civil</p>
+                    <select id="EC">
+                        <option value="Solteiro (a)" selected>Solteiro (a)</option>
+                        <option value="Casado (a)">Casado (a)</option>
+                        <option value="Divorciado (a)">Divorciado (a)</option>
+                        <option value="Viúvo (a)">Viúvo (a)</option>
+                    </select>
+
+                    <p id="tituloEmail">E-mail</p>
+                    <input type="email" id="txtEmail">
+
+                    <p id="tituloSexo">Sexo</p>
+                    <select id="sexo">
+                        <option value="">Selecione</option>
+                        <option value="masc">Masculino</option>
+                        <option value="fem">Feminino</option>
+                        <option value="outro">Não informar</option>
+                    </select>
+
+                </section>
+            </div>
+            <p id="tituloLog">Logradouro</p>
+            <input type="text" id="txtLog">
+
+            <p id="tituloCep">CEP</p>
+            <input type="number" id="txtCep">
+
+            <p id="tituloNum">Nº</p>
+            <input type="number" id="txtNum">
+            <div>
+                <section id="fundoLista2">
+                    <input type="submit" id="novo" value="NOVO">
+                    <input type="submit" id="editar" value="EDITAR">
+                    <input type="submit" id="excluir" value="EXCLUIR">
+                </section>
+            </div>
+
+            <input type="submit" id="salvar" value="Salvar">
+            <input type="submit" id="cancelar" value="Cancelar">
+
+            <p id="tituloUf">UF</p>
+            <select id="uf">
+                <option value="">Selecione</option>
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="ES">Espirito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>
+                <option value="TO">Tocantins</option>
+            </select>
+
+            <p id="tituloCid">Cidade</p>
+            <input type="text" id="txtCid">
+        </section>
+
+        <p id="tituloTel">Telefone</p>
+        <input type="tel" id="txtTel">
+
+
+        <div class="barra">
+            <nav>
+                <a href="/ProjetoPI_3s/Login/login.html">
+                    <div class="link">Controle de estoque</div>
+                    <input type="button" id="sair" onclick='window.location.href = "/ProjetoPI_3s/Login/login.html"'>
+                    <label id="sair" for="sair"><img src="icone-sair.png" title="Encerrar sessão"></label>
+                </a>
+
+                <a href="/ProjetoPI_3s/CadastroUsuario/cadastroUsuario.html">
+                    <div class="link">Gerenciar clientes</div>
+                </a>
+
+                <a href="/ProjetoPI_3s/CadastroUsuario/cadastroUsuario.html">
+                    <div class="link">Gerenciar Funcionários</div>
+                </a>
+                <p>Seja bem-vindo, Julio!</p>
+                <input type="button" id="btnHome" onclick='window.location.href = "/ProjetoPI_3s/Menu/menu.html"'>
+                <label id="iconeHome" for="btnHome"><img src="icone-home.png" title="Home"></label>
+                <!--Pegar o nome da pessoa-->
+            </nav>
+    </form>
+</body>
+
+</html>
