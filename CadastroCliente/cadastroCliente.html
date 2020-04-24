@@ -16,7 +16,7 @@
 
         <section id="fundo">
             <p id="cc">Cadastrar cliente</p>
-            <div> <input type="text" id="buscaCliente" placeholder="    Buscar CPF do cliente"></div>
+            <div> <input type="text" id="buscaCliente" placeholder="    Buscar CPF do cliente" maxlength="14"></div>
             <div><input type="submit" id="btnBuscaCliente" onclick="window.alert('Ao apertar vai aparecer a lista de itens ou algo do genero')" value="Ok">
             </div>
 
@@ -26,7 +26,7 @@
                     <input type="text" id="txtNome">
 
                     <p id="tituloCpf">CPF</p>
-                    <input type="text" id="txtCpf">
+                    <input type="text" id="txtCpf" maxlength="11" placeholder="     CPF sem traços">
 
                     <p id="tituloData">Data de nasc.</p>
                     <input type="date" id="data">
@@ -108,7 +108,7 @@
         </section>
 
         <p id="tituloTel">Telefone</p>
-        <input type="tel" id="txtTel">
+        <input type="text" id="txtTel">
 
 
         <div class="barra">
