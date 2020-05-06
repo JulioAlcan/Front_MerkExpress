@@ -1,0 +1,451 @@
+body {
+    background-color: rgb(65, 65, 65);
+}
+
+
+/*INCIO DA BARRA*/
+
+input#check {
+    width: 50px;
+    height: 50px;
+    display: none;
+    margin-top: 20px;
+    margin-left: 165px;
+}
+
+input#sair {
+    width: 50px;
+    height: 50px;
+    display: none;
+    margin-top: 785px;
+    margin-left: 165px;
+}
+
+#icone {
+    cursor: pointer;
+    padding: 12px;
+    z-index: 1;
+    position: absolute;
+    margin-top: -100px;
+    margin-left: -2px;
+}
+
+#sair {
+    cursor: pointer;
+    padding: 12px;
+    z-index: 1;
+    position: absolute;
+    margin-top: 730px;
+    margin-left: 3px;
+}
+
+.barra {
+    background-color: #1f4a54;
+    height: 100%;
+    width: 300px;
+    position: absolute;
+    transition: all .2s linear;
+    bottom: 1px;
+    left: -300px;
+}
+
+nav {
+    width: 100%;
+    position: absolute;
+    top: 60px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.link {
+    background-color: #1a4049;
+    padding: 15px;
+    font: bold 14pt Code;
+    letter-spacing: 1px;
+    font-style: inherit;
+    transition: all .2s linear;
+    color: white;
+    margin-top: 8px;
+    border-bottom: 2px solid #1f4a54;
+}
+
+.link:hover {
+    background-color: #122e35;
+}
+
+#check:checked~.barra {
+    transform: translateX(300px);
+}
+
+p {
+    font: bold 14pt Code;
+    margin-left: 15px;
+    margin-top: 50px;
+    color: white;
+}
+
+input#btnHome {
+    width: 50px;
+    height: 50px;
+    display: none;
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 555px;
+}
+
+#iconeHome {
+    cursor: pointer;
+    padding: 8px;
+    z-index: 1;
+    position: absolute;
+    margin-top: -325px;
+    margin-left: 230px;
+    cursor: pointer;
+}
+
+
+/*FIM DA BARRA*/
+
+section#fundo {
+    background-image: linear-gradient(to top, #d5d5d5 0, #d5d5d5 93%, #1f4a54 7%);
+    width: 1150px;
+    height: 680px;
+    margin-left: 500px;
+    border-radius: 18px;
+    margin-top: 100px;
+}
+
+#cp {
+    font: bold 17pt Code;
+    color: #d2d2d2;
+    position: absolute;
+    margin-left: 25px;
+    margin-top: 18px;
+}
+
+p#tituloNome {
+    position: absolute;
+    font: bold 17pt Avenir LT Std;
+    color: rgba(68, 67, 67, 0.801);
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+p#tituloValor {
+    position: absolute;
+    font: bold 17pt Avenir LT Std;
+    color: rgba(68, 67, 67, 0.801);
+    margin-left: 485px;
+    margin-top: 86px;
+}
+
+p#tituloQtd {
+    position: absolute;
+    font: bold 17pt Avenir LT Std;
+    color: rgba(68, 67, 67, 0.801);
+    margin-left: 700px;
+    margin-top: 86px;
+}
+
+p#tituloFilial {
+    position: absolute;
+    font: bold 17pt Avenir LT Std;
+    color: rgba(68, 67, 67, 0.801);
+    margin-left: 30px;
+    margin-top: 255px;
+}
+
+p#tituloCod {
+    position: absolute;
+    font: bold 17pt Avenir LT Std;
+    color: rgba(68, 67, 67, 0.801);
+    margin-top: 165px;
+    margin-left: 30px;
+}
+
+p#tituloDesc {
+    position: absolute;
+    font: bold 17pt Avenir LT Std;
+    color: rgba(68, 67, 67, 0.801);
+    margin-top: 165px;
+    margin-left: 380px;
+}
+
+p#tituloCateg {
+    position: absolute;
+    font: bold 17pt Avenir LT Std;
+    color: rgba(68, 67, 67, 0.801);
+    margin-left: 30px;
+    margin-top: 86px;
+}
+
+#buscaCliente {
+    width: 1105px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 70px;
+    position: static;
+    opacity: 1;
+    border: none;
+    border-radius: 6px;
+    outline: 0;
+    font: bold 17pt Avenir LT Std;
+    color: rgba(63, 60, 60, 0.801);
+    text-align: initial;
+}
+
+#btnBuscaCliente {
+    margin-top: -43px;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    margin-left: 1080px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font: bold 14pt Avenir LT Std;
+    color: rgba(51, 51, 51, 0.911);
+    text-align: left;
+}
+
+input#txtNome {
+    margin-top: 40px;
+    width: 1106px;
+    height: 35px;
+    border: none;
+    outline: 0;
+    font: bold 15pt Avenir LT Std;
+    color: rgb(43, 40, 40);
+    outline: none;
+    background-color: #eeeeee;
+    position: absolute;
+}
+
+#txtCateg {
+    margin-top: 115px;
+    width: 450px;
+    height: 35px;
+    border: none;
+    outline: 0;
+    font: bold 15pt Avenir LT Std;
+    color: rgb(97, 97, 97);
+    outline: none;
+    background-color: #eeeeee;
+    position: absolute;
+}
+
+#filial {
+    margin-top: 290px;
+    width: 565px;
+    height: 35px;
+    border: none;
+    outline: 0;
+    font: bold 15pt Avenir LT Std;
+    color: rgb(43, 40, 40);
+    outline: none;
+    background-color: #eeeeee;
+    position: absolute;
+}
+
+input#txtCod {
+    margin-top: 200px;
+    width: 350px;
+    height: 35px;
+    border: none;
+    outline: 0;
+    font: bold 15pt Avenir LT Std;
+    color: rgb(43, 40, 40);
+    outline: none;
+    background-color: #eeeeee;
+    position: absolute;
+}
+
+input#txtDesc {
+    margin-top: 200px;
+    margin-left: 380px;
+    width: 726px;
+    height: 35px;
+    border: none;
+    outline: 0;
+    font: bold 15pt Avenir LT Std;
+    color: rgb(43, 40, 40);
+    outline: none;
+    background-color: #eeeeee;
+    position: absolute;
+}
+
+input#txtValor {
+    margin-top: 115px;
+    margin-left: 480px;
+    width: 190px;
+    height: 35px;
+    border: none;
+    outline: 0;
+    font: bold 15pt Avenir LT Std;
+    color: rgb(43, 40, 40);
+    outline: none;
+    background-color: #eeeeee;
+    position: absolute;
+}
+
+input#txtQtd {
+    margin-top: 115px;
+    margin-left: 700px;
+    width: 406px;
+    height: 35px;
+    border: none;
+    outline: 0;
+    font: bold 15pt Avenir LT Std;
+    color: rgb(43, 40, 40);
+    outline: none;
+    background-color: #eeeeee;
+    position: absolute;
+}
+
+#novo {
+    width: 145px;
+    height: 50px;
+    margin-left: 1170px;
+    top: 68.5%;
+    left: -310px;
+    border-radius: 5px;
+    position: absolute;
+    border: none;
+    outline: 0;
+    background-color: #74a346;
+    cursor: pointer;
+    font: bold 18pt Avenir LT Std;
+    color: white;
+}
+
+#editar {
+    width: 145px;
+    height: 50px;
+    margin-left: 1170px;
+    top: 68.5%;
+    left: -150px;
+    border-radius: 5px;
+    position: absolute;
+    background-color: #f7ba21;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    font: bold 18pt Avenir LT Std;
+    color: white;
+}
+
+#excluir {
+    width: 145px;
+    height: 50px;
+    margin-left: 1170px;
+    top: 68.5%;
+    left: 10px;
+    border-radius: 5px;
+    position: absolute;
+    background-color: #db2929;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    font: bold 18pt Avenir LT Std;
+    color: white;
+}
+
+#novo:hover {
+    background-color: #557931;
+}
+
+#editar:hover {
+    background-color: #b68813;
+}
+
+#excluir:hover {
+    background-color: #b92b2b;
+}
+
+#salvar {
+    width: 145px;
+    height: 50px;
+    margin-left: 1480px;
+    top: 70%;
+    left: 10px;
+    border-radius: 5px;
+    position: absolute;
+    background-color: #1f4a54;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    font: bold 20pt Avenir LT Std;
+    color: white;
+}
+
+#salvar:hover {
+    background-color: #12343b;
+}
+
+input#cancelar {
+    width: 145px;
+    height: 50px;
+    margin-left: 1450px;
+    top: 54%;
+    left: 10px;
+    border-radius: 5px;
+    position: absolute;
+    background-color: #db2929;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    font: bold 18pt Avenir LT Std;
+    color: white;
+}
+
+#cancelar:hover {
+    background-color: #b92b2b;
+}
+
+input#salvar {
+    width: 145px;
+    height: 50px;
+    margin-left: 1280px;
+    top: 54%;
+    left: 10px;
+    border-radius: 5px;
+    position: absolute;
+    background-color: #314099;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    font: bold 18pt Avenir LT Std;
+    color: white;
+}
+
+#salvar:hover {
+    background-color: #221a6b;
+}
+
+ ::-webkit-input-placeholder {
+    color: rgba(48, 48, 48, 0.63);
+    font-weight: bold;
+}
+
+section#fundoLista {
+    background-color: white;
+    width: 1110px;
+    height: 350px;
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 15px;
+    padding: 1;
+}
+
+section#fundoLista2 {
+    background-color: white;
+    width: 550px;
+    height: 110px;
+    margin: auto;
+    margin-top: 25px;
+    border-radius: 15px;
+    padding: 1px;
+}

@@ -250,11 +250,27 @@
         position: absolute;
     }
     
+    #tituloCateg {
+        font: bold 18pt Avenir LT Std;
+        color: rgba(63, 60, 60, 0.801);
+        margin-left: 405px;
+        margin-top: 15px;
+        position: absolute;
+    }
+    
     #tituloPreco {
         font: bold 18pt Avenir LT Std;
         color: rgba(63, 60, 60, 0.801);
         margin-left: 945px;
         margin-top: 15px;
+        position: absolute;
+    }
+    
+    #tituloFilial {
+        font: bold 17pt Avenir LT Std;
+        color: rgba(63, 60, 60, 0.801);
+        margin-left: 720px;
+        margin-top: -70px;
         position: absolute;
     }
     
@@ -264,7 +280,34 @@
         margin-top: 60px;
         border-radius: 6px;
         outline: 0;
-        width: 550px;
+        width: 320px;
+        font: bold 13pt Avenir LT Std;
+        color: rgb(66, 64, 64);
+        outline: none;
+        background-color: #eeeeee;
+    }
+    
+    #filial {
+        margin-left: 720px;
+        margin-top: -25px;
+        border: none;
+        width: 170px;
+        border-radius: 6px;
+        outline: 0;
+        font: bold 15pt Avenir LT Std;
+        color: rgba(48, 48, 48, 0.63);
+        outline: none;
+        background-color: #eeeeee;
+        position: absolute;
+    }
+    
+    #categ {
+        border: none;
+        margin-left: 5px;
+        margin-top: 10px;
+        border-radius: 6px;
+        outline: 0;
+        width: 216px;
         font: bold 13pt Avenir LT Std;
         color: rgb(66, 64, 64);
         outline: none;
@@ -277,7 +320,7 @@
         margin-top: 15px;
         border-radius: 6px;
         outline: 0;
-        width: 550px;
+        width: 320px;
         font: bold 13pt Avenir LT Std;
         color: rgb(66, 64, 64);
         outline: none;
@@ -430,14 +473,6 @@
         margin-top: -70px;
         position: absolute;
         font-style: bold;
-    }
-    
-    #tituloFilial {
-        font: bold 17pt Avenir LT Std;
-        color: rgba(63, 60, 60, 0.801);
-        margin-left: 720px;
-        margin-top: -70px;
-        position: absolute;
     }
     
     #tituloCod {

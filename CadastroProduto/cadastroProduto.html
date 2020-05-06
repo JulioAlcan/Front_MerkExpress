@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merk | Produto</title>
+    <link rel="stylesheet" href="estiloCadastroProduto.css">
+</head>
+
+<body>
+    <form name="form_vendas" class="form_vendas" action="" method="POST">
+
+        <input type="checkbox" id="check">
+        <label id="icone" for="check"><img src="icone-menu.png" title="Menu"></label>
+
+        <section id="fundo">
+            <p id="cp">Cadastrar produto | Estoque</p>
+            <div> <input type="text" id="buscaCliente" placeholder="    Buscar produto"></div>
+            <div><input type="submit" id="btnBuscaCliente" onclick="window.alert('Ao apertar vai aparecer a lista de itens ou algo do genero')" value="Ok">
+            </div>
+
+            <div>
+                <section id="fundoLista">
+                    <p id="tituloNome">Nome</p>
+                    <input type="text" id="txtNome">
+
+                    <p id="tituloCateg">Categoria</p>
+                    <select id="txtCateg">
+                        <option value="nd" selected>N/D</option>
+                        <option value="carne">Carne</option>
+                        <option value="farinha">Farinha</option>
+                        <option value="fruta">Frutas</option>
+                        <option value="legume">Legumes</option>
+                        <option value="bebida">Bebidas não alcoólicas</option>
+                        <option value="bebidaAlc">Bebidas alcoólicas</option>
+                        <option value="laticineo">Laticíneos</option>
+                        <option value="doces">Açúcares e doces</option>
+                        <option value="paes">Pães</option>
+                        <option value="higiene">Higiene pessoal</option>
+                        <option value="limpeza">Produto de limpeza</option>
+                    </select>
+
+                    <p id="tituloValor">Valor</p>
+                    <input type="number" id="txtValor">
+
+                    <p id="tituloQtd">Quantidade em estoque</p>
+                    <input type="number" id="txtQtd">
+
+                    <p id="tituloCod">Código produto</p>
+                    <input type="text" id="txtCod">
+
+                    <p id="tituloDesc">Descrição produto</p>
+                    <input type="text" id="txtDesc">
+
+                    <p id="tituloFilial">Filial</p>
+                    <select id="filial">
+                        <option value="valor1" selected>Loja 1</option>
+                        <option value="valor2">Loja 2</option>
+                        <option value="valor3">Loja 3</option>
+                    </select>
+
+                    <input type="button" id="cancelar" value="Cancelar">
+                    <input type="button" id="salvar" value="Salvar">
+
+                </section>
+            </div>
+            <section id="fundoLista2">
+                <input type="submit" id="novo" value="NOVO">
+                <input type="submit" id="editar" value="EDITAR">
+                <input type="submit" id="excluir" value="EXCLUIR">
+            </section>
+            </div>
+        </section>
+
+        <div class="barra">
+            <nav>
+                <a href="/ProjetoPI_3s/CadastroProduto/CadastroProduto.html">
+                    <div class="link">Controle de estoque</div>
+                    <input type="button" id="sair" onclick='window.location.href = "/ProjetoPI_3s/Login/login.html"'>
+                    <label id="sair" for="sair"><img src="icone-sair.png" title="Encerrar sessão"></label>
+                </a>
+
+                <a href="/ProjetoPI_3s/CadastroCliente/cadastroCliente.html">
+                    <div class="link">Gerenciar clientes</div>
+                </a>
+
+                <a href="/ProjetoPI_3s/CadastroUsuario/cadastroUsuario.html">
+                    <div class="link">Gerenciar Funcionários</div>
+                </a>
+                <p>Seja bem-vindo, Julio!</p>
+                <input type="button" id="btnHome" onclick='window.location.href = "/ProjetoPI_3s/Menu/menu.html"'>
+                <label id="iconeHome" for="btnHome"><img src="icone-home.png" title="Home"></label>
+                <!--Pegar o nome da pessoa-->
+            </nav>
+    </form>
+</body>
+
+</html>
