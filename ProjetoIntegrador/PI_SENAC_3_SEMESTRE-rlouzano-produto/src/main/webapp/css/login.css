@@ -1,0 +1,163 @@
+body {
+    background-image: url(geometric-landscape-k--wallpaper-edit.png);
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+section {
+    background-color: white;
+    padding: 10px;
+    width: 450px;
+    height: 430px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+div {
+    font: bold 20pt Avenir LT Std;
+    color: rgba(0, 0, 0, 0.897);
+    text-align: center;
+    margin-top: 10px;
+}
+
+div#merk {
+    font: bold 25pt Avenir LT Std;
+    color: rgba(0, 0, 0, 0.897);
+    text-align: center;
+    margin-top: 5px;
+    letter-spacing: 1px;
+}
+
+section#criarConta {
+    background-color: white;
+    padding: 10px;
+    width: 450px;
+    height: 160px;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+input {
+    font: bold 16pt Corbel;
+    background: none;
+    color: rgb(11, 7, 22);
+    width: 85%;
+    border: none;
+    height: 1.8em;
+    position: static;
+    margin-top: 45px;
+    margin-left: 20px;
+    outline: 0;
+    font-size: 1.5rem;
+    z-index: 3;
+}
+
+hr {
+    background-color: rgb(43, 43, 43);
+    height: 1.3px;
+    width: 420px;
+    margin-top: -2px;
+    margin-right: 12px;
+    opacity: 0.5;
+}
+
+input#senha {
+    font: bold 16pt Corbel;
+    background: none;
+    color: rgb(11, 7, 22);
+    width: 85%;
+    border: none;
+    height: 1.8em;
+    position: static;
+    margin-top: 40px;
+    margin-left: 20px;
+    outline: 0;
+    font-size: 1.5rem;
+    z-index: 3;
+}
+
+hr#senha {
+    background-color: rgb(43, 43, 43);
+    height: 1.3px;
+    width: 420px;
+    margin-top: -2px;
+    margin-right: 12px;
+    opacity: 0.5;
+}
+
+input#entrar {
+    background-color: #b4282b;
+    font: bold 20pt Corbel;
+    color: white;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+
+span {
+    font: bold 20pt Corbel;
+}
+
+a#linkSenha {
+    font: bold 14pt Corbel;
+    color: rgb(11, 7, 22);
+    opacity: 0.7;
+    margin: auto;
+}
+
+#bordaCriar{
+    background-color: white;
+    width: 80%;
+    height: 25px;
+    margin: auto;   
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: #1d1f1c;
+    
+}
+
+a#criar {
+    font: normal 20pt Corbel;
+    color: #1d1f1c;
+    margin-left: 115px;
+}
+
+p {
+    font: normal 20pt Corbel;
+    color: rgba(0, 0, 0, 0.897);
+    text-align: center;
+    margin-top: 15px;
+    letter-spacing: 1px;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+[aria-label] {
+    position: relative;
+}
+
+[aria-label]::after {
+    content: attr(aria-label);
+    display: none;
+    position: absolute;
+    z-index: 5000;
+    top: 120%;
+    margin-left: 40px;
+    pointer-events: none;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: .7em;
+    color: #fff;
+    background-color: #383838;
+}
+
+[aria-label]:hover::after {
+    display: block;
+}

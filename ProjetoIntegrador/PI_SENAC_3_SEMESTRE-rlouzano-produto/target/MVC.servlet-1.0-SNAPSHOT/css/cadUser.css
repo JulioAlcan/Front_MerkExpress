@@ -1,0 +1,121 @@
+body {
+    background-image: url(background-cadUser.png);
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #3a3a3a;
+}
+
+label {
+    font: bold 17pt Avenir LT Std;
+    color: rgba(26, 25, 25, 0.89);
+    text-align: right;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+#txtAdm{
+    width: 150px;
+}
+
+section {
+    background-color: white;
+    padding: 10px;
+    height: 695px;
+    width: 700px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+h1 {
+    font: bold 25pt Avenir LT Std;
+    color: rgba(15, 15, 15, 0.897);
+    text-align: center;
+    margin-top: 5px;
+    letter-spacing: -1px;
+}
+
+label#adm {
+    font: bold 17pt Avenir LT Std;
+    color: rgba(26, 25, 25, 0.89);
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: -1px;
+}
+
+#perfil{
+    margin-left: 94px;
+}
+
+#user{
+    margin-left: 70px;
+}
+
+#filial{
+    margin-left: 105px;
+}
+
+#lblCpf{
+     margin-left: 108px;
+}
+
+#lblNome{
+     margin-left: 81px;
+}
+
+#senha{
+     margin-left: 85px;
+}
+
+#codfilial{
+     margin-left: 22px;
+}
+
+a{
+    font: bold 17pt Avenir LT Std;
+    margin-left: 252px;
+    text-decoration: none;
+    color: #272424;
+}
+
+
+hr {
+    width: 500px;
+    margin-top: -20px;
+    margin-left: 160px;
+    margin-bottom: 30px;
+}
+
+hr#adm {
+    width: 450px;
+    margin-top: -20px;
+    margin-left: 175px;
+}
+
+input {
+    background-color: transparent;
+    border: none;
+    outline: 0;
+    font-size: 1.3rem;
+    width: 450px;
+    margin-left: 10px;
+}
+
+input#cadastrar {
+    background-color: #1c5a68;
+    font: bold 20pt Corbel;
+    color: white;
+    margin-left: 220px;
+    margin-top: 25px;
+    border-radius: 10px;
+    width: 250px;
+    height: 40px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#cadastrar:hover {
+    background-color: #102f36;
+}
+

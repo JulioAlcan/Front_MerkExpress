@@ -1,0 +1,207 @@
+body{
+    background-image: linear-gradient(to top,  #a3a3a3 0, #a3a3a3 95%, #1f4a54 8%);
+    background-repeat: no-repeat;
+    width: 1900px;
+    height: 1000px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-radius: 21px;
+    margin-top: 20px;
+}
+
+
+#finalizar{
+    font: bold 13pt Avenir LT Std;
+    margin-left: -250px;
+    text-decoration: none;
+    color: rgb(43, 43, 43);
+}
+
+#cancelar{
+    font: bold 13pt Avenir LT Std;
+    margin-left: -250px;
+    outline: 0;
+    text-decoration: none;
+    color: rgb(43, 43, 43);
+}
+
+#fundoTabela{
+    background-color: #c4c4c4;
+    width: 1300px;
+    margin-left: 350px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 30px;
+}
+#buscaProd{
+    width: 470px;
+    height: 35px;
+    opacity: 1;
+    border: none;
+    border-radius: 6px;
+    outline: 0;
+    font: bold 15pt Avenir LT Std;
+    color: rgba(63, 60, 60, 0.801);
+    margin-top: -10px;
+    margin-left: 450px;
+}
+
+#txtTotal{
+    border-radius: 6px;
+    font: bold 14pt Avenir LT Std;
+    margin-left: 10px;
+    border: none;
+    position: absolute;
+}
+
+#secFinalizar{
+    width: 120px;
+    height: 25px;
+    font: bold 13pt Avenir LT Std;
+    color: white;
+    border-radius: 6px;
+    margin-left: -250px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+#secCancelar{
+    width: 120px;
+    height: 25px;
+    font: bold 13pt Avenir LT Std;
+    border-radius: 6px;
+    margin-left: -250px;
+    cursor: pointer;
+    padding: 5px;
+    
+}
+
+.pesquisa-produto{
+    top: 11px;
+    width: 85px;
+    height: 35px;
+    position: absolute;
+    margin-left: -50px;
+    border-radius: 0px 6px 6px 0px; 
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font: bold 12pt Avenir LT Std;
+    color: rgba(39, 37, 37, 0.801);
+    text-align: left;
+    text-align: center;
+    background-color: #c3c3c3;
+}
+th{
+    border-collapse: collapse;
+    font: bold 16pt Avenir LT Std;
+    width: 0px;
+    height: 16px;
+    color: white;
+    background-color: #1f4a54;
+}
+td{
+    border-collapse: collapse;
+    font-size: 18px;
+    width: 106px;
+    height: 14px;
+    text-align: center;
+    color: rgb(43, 43, 43);
+}
+header{
+    width: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+
+.campo-cliente{
+    background-color: white;
+    width: 1202px;
+    height: 135px;
+    margin: auto;
+    margin-top: 12px;
+    border-radius: 15px;
+    padding: 1px;
+
+}
+
+
+
+
+
+#check {
+    width: 50px;
+    height: 50px;
+    display: none;
+    margin-top: 20px;
+    margin-left: 165px;
+}
+
+#icone {
+    cursor: pointer;
+    padding: 12px;
+    z-index: 1;
+    position: absolute;
+    margin-top: -261px;
+    margin-left: -365px;
+}
+
+#sair {
+    margin-top: 520px;
+    margin-left: 10px;
+}
+
+#menu{
+   margin-top: -55px;
+   margin-left: 230px; 
+}
+
+.barra {
+    background-color: #1f4a54;
+    height: 100%;
+    width: 300px;
+    position: absolute;
+    transition: all .2s linear;
+    bottom: 1px;
+    left: -300px;
+}
+
+nav {
+    width: 100%;
+    position: absolute;
+    top: 60px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.link {
+    background-color: #1a4049;
+    padding: 15px;
+    font: bold 14pt Code;
+    letter-spacing: 1px;
+    font-style: inherit;
+    transition: all .2s linear;
+    color: white;
+    margin-top: 8px;
+    border-bottom: 2px solid #1f4a54;
+}
+
+.link:hover {
+    background-color: #122e35;
+}
+
+#check:checked~.barra {
+    transform: translateX(300px);
+}
+
+p {
+    font: bold 14pt Code;
+    margin-left: 15px;
+    margin-top: 50px;
+    color: white;
+}
+

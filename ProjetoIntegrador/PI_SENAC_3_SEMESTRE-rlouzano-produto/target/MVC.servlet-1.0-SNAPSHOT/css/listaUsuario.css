@@ -1,0 +1,144 @@
+body{
+    background-image: linear-gradient(to top,  #a3a3a3 0, #a3a3a3 95%, #1f4a54 8%);
+    background-repeat: no-repeat;
+    width: 1900px;
+    height: 1000px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-radius: 21px;
+    margin-top: 20px;
+}
+
+section#fundoTabela{
+    background-color: #c4c4c4;
+    width: 680px;
+    margin-left: 350px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 110px;
+    margin-left: 530px;
+}
+
+
+tr{
+    border-collapse: collapse;
+    font: bold 16pt Avenir LT Std;
+    width: 0px;
+    height: 16px;
+    color: white;
+    background-color: #1f4a54;
+}
+td{
+    border-collapse: collapse;
+    font: bold 16pt Avenir LT Std;
+    font-size: 18px;
+    width: 106px;
+    height: 14px;
+    text-align: center;
+    color: rgb(43, 43, 43);
+}
+
+
+#check {
+    width: 50px;
+    height: 50px;
+    display: none;
+    margin-top: 20px;
+    margin-left: 165px;
+}
+
+#icone {
+    cursor: pointer;
+    padding: 12px;
+    z-index: 1;
+    position: absolute;
+    margin-top: -165px;
+    margin-left: -655px;
+}
+
+#sair {
+    margin-top: 460px;
+    margin-left: 7px;
+}
+
+#menu{
+   margin-top: -52px;
+   margin-bottom: 25px;
+   margin-left: 230px;
+}
+
+.barra {
+    background-color: #1f4a54;
+    height: 100%;
+    width: 300px;
+    position: absolute;
+    transition: all .2s linear;
+    bottom: 1px;
+    left: -300px;
+}
+
+nav {
+    width: 100%;
+    position: absolute;
+    top: 60px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.link {
+    background-color: #1a4049;
+    padding: 15px;
+    font: bold 14pt Code;
+    letter-spacing: 1px;
+    font-style: inherit;
+    transition: all .2s linear;
+    color: white;
+    margin-top: 10px;
+    border-bottom: 2px solid #1f4a54;
+    text-align: left;
+}
+
+.link:hover {
+    background-color: #122e35;
+}
+
+#check:checked~.barra {
+    transform: translateX(300px);
+}
+
+p {
+    font: bold 14pt Code;
+    margin-left: 15px;
+    margin-top: 50px;
+    color: white;
+}
+
+
+input#cadastrar {
+    background-color: #1c5a68;
+    font: normal 17pt Corbel;
+    color: white;
+    margin-left: 540px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    border-radius: 7px;
+    width: 115px;
+    height: 30px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#cadastrar:hover {
+    background-color: #102f36;
+}
+
+#txtCad{
+    font: bold 16pt Avenir LT Std;
+    margin-left: 540px;
+    margin-top: -35px;
+    position: absolute;
+    text-decoration: none;
+    color: #1e2e6c;
+}

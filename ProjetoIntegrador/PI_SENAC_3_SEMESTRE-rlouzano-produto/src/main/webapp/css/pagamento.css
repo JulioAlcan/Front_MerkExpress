@@ -1,0 +1,140 @@
+body{
+    background-image: linear-gradient(to top,  #a3a3a3 0, #a3a3a3 95%, #1f4a54 8%);
+    background-repeat: no-repeat;
+    width: 1900px;
+    height: 820px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-radius: 21px;
+    margin-top: 20px;
+}
+
+#txtTotal{
+    border-radius: 6px;
+    font: bold 14pt Avenir LT Std;
+    margin-left: 10px;
+    border: none;
+    position: absolute;
+}
+
+
+section{
+    width: 0px;
+    height: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+
+h1{
+    text-align: center;
+    top: 250px;
+    color: #242121;
+}
+
+.titulo{
+    width: auto;
+    margin-top: 0px;
+    margin-left: 750px;
+}
+h1{
+    margin-left: 400%;
+    margin-top: 42px;
+    width: 391px;
+}
+.combo-box{
+    margin-top: 24px;
+}
+.forma-pagamento{
+    background-color: white;
+    padding: 40px;
+    height: 107px;
+    width: 965px;
+    margin: auto;
+    margin-top: 0px;
+    margin-left: 350px;
+    border-radius: 10px;
+}
+th{
+    border-collapse: collapse;
+    font: bold 13pt Avenir LT Std;
+    background-color: #1f4a54;
+    color: white;
+    width: 115px;
+    height: 16px;
+
+}
+
+section#sec{
+    background-color: #c4c4c4;
+    padding: 10px;
+    margin: auto;
+    width: 1000px;
+    height: 500px;
+}
+
+td{
+    border-collapse: collapse;
+    font: bold 16pt Avenir LT Std;
+    font-size: 11px;
+    width: 106px;
+    height: 14px;
+    text-align: center;
+}
+.tabela-final{
+    width: 1300px;
+    margin-left: 698px;
+    margin-right: 450px;
+    margin-top: 80px;
+}
+#pesquisa{
+    border-radius: 6px;
+    font: bold 14pt Avenir LT Std;
+    margin-left: 30px;
+    border: none;
+    margin-left: 0px;
+    margin-top: 0px;
+    outline: 0;
+    color: rgba(68, 61, 61, 0.801);
+    text-align: initial;
+}
+.tabela{
+    font: bold 24pt Avenir LT Std;
+    margin-left: -50px;
+    margin-top: 10px;
+}
+
+.botoes{
+    width: 0px;
+    height: 0px;
+    margin-left: 0px;
+}
+.botoes-final{
+    width: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    background-color: #db2929;
+    color: white;
+}
+
+.total{
+    margin-left: 0px;
+    margin-top: 3px;
+    text-align: center;  
+}
+
+.btn{
+    margin-top: 7px;
+    margin-left: 775px;
+    width: 175px;
+}
+
+.Finalizar{
+    position: relative;
+
+
+}
+.Retornar{
+    position: relative;
+}

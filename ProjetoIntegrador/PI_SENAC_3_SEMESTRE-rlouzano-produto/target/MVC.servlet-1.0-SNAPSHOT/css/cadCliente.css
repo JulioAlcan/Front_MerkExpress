@@ -1,0 +1,246 @@
+body {
+    background-image: url(background-cadUser.png);
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #3a3a3a;
+}
+
+label {
+    font: bold 17pt Avenir LT Std;
+    color: rgba(26, 25, 25, 0.89);
+    margin-top: 50px;
+    margin-left: 48px;
+}
+
+#txtAdm{
+    width: 150px;
+}
+
+p#titulo{
+    font: bold 30pt Avenir LT Std;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    letter-spacing: -1px;
+    position: relative;
+}
+
+section#fundo {
+    background-color: white;
+    padding: 10px;
+    height: 980px;
+    width: 700px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+h1 {
+    font: bold 25pt Avenir LT Std;
+    color: rgba(15, 15, 15, 0.897);
+    text-align: center;
+    margin-top: 5px;
+    letter-spacing: -1px;
+}
+
+
+#nome{
+    margin-left: 104px;
+}
+
+#sexo{
+    margin-left: 114px;
+}
+
+#cpf{
+    margin-left: 120px;
+}
+
+#rg{
+     margin-left: 132px;
+}
+
+#ec{
+     margin-left: 43px;
+}
+
+#tel{
+     margin-left: 77px;
+}
+
+#dn{
+     margin-left: 27px;
+}
+
+#email{
+     margin-left: 108px;
+}
+
+
+
+#nc{
+     margin-left: 28px;
+}
+
+#comp{
+     margin-left: 22px;
+}
+
+#cep{
+     margin-left: 125px;
+}
+
+#cid{
+     margin-left: 96px;
+}
+
+#uf{
+     margin-left: 140px;
+}
+
+a{
+    font: bold 20pt Avenir LT Std;
+    margin-left: 265px;
+    text-decoration: none;
+    text-align: center;
+    color: #272424;
+}
+
+
+hr {
+    width: 470px;
+    margin-top: 2px;
+    margin-left: 180px;
+    margin-bottom: 30px;
+}
+
+hr#adm {
+    width: 450px;
+    margin-top: -20px;
+    margin-left: 175px;
+}
+
+input {
+    background-color: transparent;
+    border: none;
+    outline: 0;
+    font-size: 1.3rem;
+    width: 450px;
+    margin-left: 10px;
+}
+
+input#log{
+    margin-left: 1px;
+}
+
+label#log{
+     margin-right: 100px;
+     position: absolute;
+}
+
+
+input#cadastrar {
+    background-color: #1c5a68;
+    font: bold 20pt Corbel;
+    color: white;
+    margin-left: 220px;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 250px;
+    height: 40px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#cadastrar:hover {
+    background-color: #102f36;
+}
+
+
+
+
+
+
+
+
+#check {
+    width: 50px;
+    height: 50px;
+    display: none;
+    margin-top: 20px;
+    margin-left: 165px;
+}
+
+#icone {
+    cursor: pointer;
+    padding: 12px;
+    z-index: 1;
+    position: absolute;
+    margin-top: -1100px;
+    margin-left: -2px;
+}
+
+#sair {
+    margin-top: 420px;
+    margin-right: 230px;
+}
+
+#menu{
+   margin-top: -83px;
+   margin-bottom: 25px;
+   margin-right: -200px;
+}
+
+.barra {
+    background-color: #1f4a54;
+    height: 120%;
+    top: 0px;
+    width: 300px;
+    position: absolute;
+    transition: all .2s linear;
+    bottom: 1px;
+    left: -300px;
+}
+
+nav {
+    width: 100%;
+    position: absolute;
+    top: 60px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.link {
+    background-color: #1a4049;
+    padding: 15px;
+    font: bold 14pt Code;
+    letter-spacing: 1px;
+    font-style: inherit;
+    transition: all .2s linear;
+    color: white;
+    margin-top: -20px;
+    border-bottom: 2px solid #1f4a54;
+    text-align: left;
+}
+
+.link:hover {
+    background-color: #122e35;
+}
+
+#check:checked~.barra {
+    transform: translateX(300px);
+}
+
+p {
+    font: bold 14pt Code;
+    margin-left: 15px;
+    margin-top: 50px;
+    color: white;
+}
+
+
